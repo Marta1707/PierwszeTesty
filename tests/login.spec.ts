@@ -34,7 +34,7 @@ test('unsuccessful login with with too short password', async ({ page }) => {
   await expect(page.getByTestId('error-login-password')).toHaveText('hasło ma min. 8 znaków');
 });
 
-a
+
 
 
 })
